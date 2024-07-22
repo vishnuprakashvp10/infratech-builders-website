@@ -32,8 +32,12 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
 
   useEffect(() => {
     if (!timeoutReq) return;
-    if (location.pathname === "/contact-us") return;
-
+    if (
+      location.pathname === "/contact-us" ||
+      location.pathname === "/privacy-policy" ||
+      location.pathname === "/faq" ||
+      location.pathname === "/blog"
+    ) return;
     const popupFunction = () => {
       if (document.getElementById("contact-form")) return;
       if (!formSubmitted) {
