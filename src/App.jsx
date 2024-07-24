@@ -20,6 +20,7 @@ import Turfconstruction from './Turfconstruction';
 import Paintingservices from './Paintingservices';
 import Renovationservices from './Renovationservices';
 import Privacypolicy from './Privacypolicy';
+import Faq from './faq';
 import Aboutus from './Aboutus';
 import Contactus from './Contactus';
 import ScrollToTop from './ScrollToTop';
@@ -62,6 +63,7 @@ const App = () => {
               <Route path="/painting-services" element={<Paintingservices />} />
               <Route path="/renovation-services" element={<Renovationservices />} />
               <Route path="/privacy-policy" element={<Privacypolicy />} />
+              <Route path="/faq" element={<Faq />} />
               <Route path="/about-us" element={<Aboutus />} />
               <Route path="/contact-us" element={<Contactus />} />
               <Route path='*' element={<NotFound />} />

@@ -32,6 +32,10 @@ const FooterLinks = [
   {
     title: "Privacy Policy",
     link: "/privacy-policy",
+  },
+  {
+    title: "FAQ",
+    link: "/faq",
   }
 ];
 
