@@ -22,6 +22,9 @@ const routes = [
   '/renovation-services',
   '/about-us',
   '/contact-us',
+  '/privacy-policy',
+  '/faq',
+  '/blog',
 ];
 
 const generateSitemap = async () => {

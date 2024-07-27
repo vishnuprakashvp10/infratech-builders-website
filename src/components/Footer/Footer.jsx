@@ -36,6 +36,10 @@ const FooterLinks = [
   {
     title: "FAQ",
     link: "/faq",
+  },
+  {
+    title: "Blog",
+    link: "/blog",
   }
 ];
 
