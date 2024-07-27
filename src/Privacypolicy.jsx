@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Blog = () => {
+const Privacypolicy = () => {
   return (
     <div className="ml-4" >
-      <h1  className="text-center font-bold py-7 mr-2 max-w-[1400px] md:py-5 text-2xl  md:text-3xl"  style={{color: 'orange'}}>Check Out The Top 10 Construction Companies In Chennai</h1>
+      <h1  className="text-center font-bold py-7 mr-2 max-w-[1400px] md:py-5 text-2xl  md:text-5xl"  style={{color: 'orange'}}>PRIVACY POLICY</h1>
       <p className="text-justify ml-2 md:ml-4  max-w-[1400px] text-xl mt-2 font-bold" style={{color: 'orange'}}>INTRODUCTION:</p>
       <p className='text-justify ml-2 md:ml-4  mr-4 max-w-[1200px]'>Infra Tech Builders ("we", "us", "our") is committed to protecting the privacy of those who visit our website (the "Site"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Site.</p>
       <h1 className="font-bold ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}>INFORMATION WE COLLECT:</h1>
@@ -41,4 +41,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Privacypolicy
