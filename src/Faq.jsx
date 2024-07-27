@@ -108,7 +108,7 @@ export const questions4 = [
       "Timelines vary based on the project size. The installation process involves site preparation, base installation, and laying the turf."
   },
   {
-    question: "Does turf construction reQuire special maintenance?",
+    question: "Does turf construction require special maintenance?",
     answer:
       "Turf is low-maintenance, reQuiring occasional cleaning and brushing. It doesn't need watering, mowing, or fertilizing like natural grass.",
   },
@@ -136,7 +136,7 @@ export const questions5 = [
       "Remodeling involves changing the structure, while renovation updates existing elements. Choose based on your goals and budget."
   },
   {
-    question: "What permits are reQuired for home renovations, and how do I obtain them?",
+    question: "What permits are required for home renovations, and how do I obtain them?",
     answer:
       "Permits vary by location and project. Consult with your contractor to determine the necessary permits and obtain approvals.",
   },
