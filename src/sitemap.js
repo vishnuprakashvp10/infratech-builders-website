@@ -24,7 +24,7 @@ const routes = [
   '/contact-us',
   '/privacy-policy',
   '/faq',
-  '/blog',
+  '/blog-post',
 ];
 
 const generateSitemap = async () => {

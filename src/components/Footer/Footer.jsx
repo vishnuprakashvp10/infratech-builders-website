@@ -38,8 +38,8 @@ const FooterLinks = [
     link: "/faq",
   },
   {
-    title: "Blog",
-    link: "/blog",
+    title: "Blog Post",
+    link: "/blog-post",
   }
 ];
 
