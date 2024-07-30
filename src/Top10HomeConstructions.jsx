@@ -1,9 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { BiMinus } from "react-icons/bi";
+import { BsPlusLg } from "react-icons/bs";
+
+export const questions = [
+  {
+    question: "How can I evaluate the credibility of these builders before making a decision?",
+    answer: "To assess credibility, research their track record, read customer reviews, visit completed projects, and check their legal compliance and approvals."  
+  },
+  {
+    question: "Do these builders work on both residential and commercial properties in Chennai?",
+    answer: "Yes, many of these builders have experience in both residential and commercial projects. Their portfolios often include a range of luxury apartments, villas, townships, and commercial spaces. For detailed information, review their individual project listings on their websites."
+  },
+  {
+    question: "How do these builders incorporate sustainable and eco-friendly practices in their projects?",
+    answer: "Several of these builders emphasize sustainability by using green building practices, energy-efficient designs, and eco-friendly materials. Visit their websites for more details on their sustainable initiatives and certifications, such as LEED or IGBC ratings."
+  },
+  {
+    question: "Are customization options available for villas and luxury apartments from these builders?",
+    answer: "Yes, many top builders offer customization options to suit various preferences. They often provide choices in layout, finishes, and amenities to ensure your residence meets your specific vision and needs."
+  },
+  {
+    question: "What should I consider when choosing between luxury apartments and villas from these builders?",
+    answer: "Consider personal preferences, lifestyle, space requirements, and amenities. Villas offer more privacy and space, while apartments may provide convenience and shared facilities."
+  },
+];
 
 const HomeConstructionsTop10 = () => {
+  const [cards] = useState(questions);
+
   return (
     <div className="ml-4">
-      <h1 className="text-center font-bold py-7 mr-2 max-w-[1400px] md:py-5 text-2xl  md:text-3xl" style={{color: 'orange'}}>
+      <h1 className="text-center font-bold py-7 mr-2 max-w-[1400px] md:py-5 text-2xl md:text-3xl" style={{color: 'orange'}}>
         Check Out The Top 10 Construction Companies In Chennai
       </h1>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
@@ -149,7 +176,7 @@ const HomeConstructionsTop10 = () => {
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       Committed to creating homes that offer lasting value and stand the test of time, Shriram Properties is undoubtedly one of the top builders in Chennai. For those seeking a builder that emphasizes customer satisfaction, reliability, and long-term quality, Shriram Properties is the perfect choice.
       </p>
-        <ul className='list-disc mb-10 ml-6 md:ml-8 mr-4 max-w-[1400px]'>
+        <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
         <li>Founder: M. Murali</li>
         <li>Year of Establishment: 1995</li>
         <li>Headquarters: Bengaluru, Karnataka</li>
@@ -158,8 +185,47 @@ const HomeConstructionsTop10 = () => {
         <li>Contact Number:  044-40014410</li>
         <li>Address: Lakshmi Neela Rite Choice Chamber, 1st Floor, New No 9, Bazullah Road, T Nagar, Chennai - 600017</li>
       </ul>
+
+      <p className="text-justify ml-2 md:ml-4  max-w-[1400px] text-xl mt-2 font-bold" style={{color: 'orange'}}>Conclusion:</p>
+      <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
+Choosing the right and highly qualified top 10 construction companies in Chennai can greatly benefit both you and your project. Partnering with a trustworthy and skilled builder or developer from this list ensures that your construction needs are handled efficiently and professionally, allowing you to remain worry-free throughout the process. It is important to provide a clear building plan outlining how you envision the final structure. Once the plan is submitted, it’s best to step back and allow the construction process to unfold. Ensure that the construction is executed flawlessly, as it’s more than just stone and brick—it represents your vision and investment. The building should not only meet your expectations in terms of quality but also add a touch of luxury and comfort to its surroundings. Ultimately, the goal is to safeguard your lifestyle and ensure that your plan is executed without unnecessary risk. Entrusting the construction company with your project will save you both time and money while achieving the desired results.
+      </p>
+      <p className="text-center py-2 mb-8 text-2xl md:ml-4 max-w-[1400px] text-2xl mt-2 font-bold" style={{color: 'orange'}}>
+        Frequently Asked Questions:
+      </p>
+      <section className="max-w-xl mx-auto mb-8 px-4 grid grid-cols-1 gap-8">
+        {cards.map((card, index) => (
+          <SingleQuestion {...card} key={index} />
+        ))}
+      </section>
     </div>
-  )
+  );
+}
+
+const SingleQuestion = ({ question, answer }) => {
+  const [showAnswer, setShowAnswer] = useState(false);
+
+  return (
+    <div className="border border-gray-400 rounded-lg bg-white">
+      <article className="flex items-center justify-between p-4 lg:p-6">
+        <h2
+          className="cursor-pointer"
+          onClick={() => setShowAnswer(!showAnswer)}
+        >
+          {question}
+        </h2>
+        <button onClick={() => setShowAnswer(!showAnswer)}>
+          {showAnswer ? <BiMinus /> : <BsPlusLg />}
+        </button>
+      </article>
+
+      {showAnswer && (
+        <article className="border-t border-gray-400 p-4 lg:p-6">
+          <p>{answer}</p>
+        </article>
+      )}
+    </div>
+  );
 }
 
 export default HomeConstructionsTop10;
