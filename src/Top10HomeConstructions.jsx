@@ -1,6 +1,17 @@
 import React, { useState } from 'react';
 import { BiMinus } from "react-icons/bi";
 import { BsPlusLg } from "react-icons/bs";
+import Banner from "./assets/Hero/top-cons-blog-img.jpg";
+import Image1 from "./assets/Hero/casagrand.jpg";
+
+const BannerImg = {
+  backgroundImage: `url(${Banner})`,
+  backgroundPosition: 'center',
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  height: "100%",
+  width: "100%",
+};
 
 export const questions = [
   {
@@ -29,7 +40,15 @@ const HomeConstructionsTop10 = () => {
   const [cards] = useState(questions);
 
   return (
-    <div className="ml-4">
+    <div>
+    <div className='text-xl' >
+      <div className="mb-2 bg-gray-100  text-black" style={BannerImg}>
+        <div className="container py-28 ">
+          <div className="space-y-6 mx-auto">
+          </div>
+        </div>
+      </div>
+      <div className="ml-4">
       <h1 className="text-center font-bold py-7 mr-2 max-w-[1400px] md:py-5 text-2xl md:text-3xl" style={{color: 'orange'}}>
         Check Out The Top 10 Construction Companies In Chennai
       </h1>
@@ -38,6 +57,13 @@ const HomeConstructionsTop10 = () => {
       </p>
 
       <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://www.casagrand.co.in">1.Casagrand Builder Pvt. Ltd.</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image1})` }}
+  >
+  </div>
+</div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       Casagrand Builder is a top real estate company in Chennai, renowned for its quality and value. Over the past 15 years, it has developed 22 million square feet of premium homes across Chennai, Kochi, Bengaluru, Kodaikanal, Hyderabad, and Coimbatore, serving over 18,250 households. Now in its 16th year, Casagrand has projects worth more than INR 8000 crores in the pipeline, signaling ongoing growth.
       </p>
@@ -186,10 +212,13 @@ const HomeConstructionsTop10 = () => {
         <li>Address: Lakshmi Neela Rite Choice Chamber, 1st Floor, New No 9, Bazullah Road, T Nagar, Chennai - 600017</li>
       </ul>
 
+
       <p className="text-justify ml-2 md:ml-4  max-w-[1400px] text-xl mt-2 font-bold" style={{color: 'orange'}}>Conclusion:</p>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
 Choosing the right and highly qualified top 10 construction companies in Chennai can greatly benefit both you and your project. Partnering with a trustworthy and skilled builder or developer from this list ensures that your construction needs are handled efficiently and professionally, allowing you to remain worry-free throughout the process. It is important to provide a clear building plan outlining how you envision the final structure. Once the plan is submitted, it’s best to step back and allow the construction process to unfold. Ensure that the construction is executed flawlessly, as it’s more than just stone and brick—it represents your vision and investment. The building should not only meet your expectations in terms of quality but also add a touch of luxury and comfort to its surroundings. Ultimately, the goal is to safeguard your lifestyle and ensure that your plan is executed without unnecessary risk. Entrusting the construction company with your project will save you both time and money while achieving the desired results.
       </p>
+      </div>
+      </div>
       <p className="text-center py-2 mb-8 text-2xl md:ml-4 max-w-[1400px] text-2xl mt-2 font-bold" style={{color: 'orange'}}>
         Frequently Asked Questions:
       </p>
@@ -199,6 +228,7 @@ Choosing the right and highly qualified top 10 construction companies in Chennai
         ))}
       </section>
     </div>
+
   );
 }
 
