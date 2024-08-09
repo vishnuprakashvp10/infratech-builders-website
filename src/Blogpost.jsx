@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
-import Img1 from './assets/Hero/lshape.jpg'; 
+import Img1 from './assets/Hero/blog-home-cons.jpg'; 
 import Img2 from './assets/Hero/linear.jpg';
 import Img3 from './assets/Hero/ushape.jpg';
 import Img4 from './assets/Hero/para.jpg';

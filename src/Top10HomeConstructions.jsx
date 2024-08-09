@@ -3,6 +3,15 @@ import { BiMinus } from "react-icons/bi";
 import { BsPlusLg } from "react-icons/bs";
 import Banner from "./assets/Hero/top-cons-blog-img.jpg";
 import Image1 from "./assets/Hero/casagrand.jpg";
+import Image2 from "./assets/Hero/landt.jpg";
+import Image3 from "./assets/Hero/homeonefin.jpg";
+import Image4 from "./assets/Hero/arunexcello.jpg";
+import Image5 from "./assets/Hero/akshaya.jpg";
+import Image6 from "./assets/Hero/indiabuilders.jpg";
+import Image7 from "./assets/Hero/appaswamy.jpg";
+import Image8 from "./assets/Hero/kgbuilders.jpg";
+import Image9 from "./assets/Hero/alliance.jpg";
+import Image10 from "./assets/Hero/shriram.jpeg";
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
@@ -56,7 +65,7 @@ const HomeConstructionsTop10 = () => {
       If you are seeking the top construction companies in Chennai to build your home, explore this list. Chennai, Tamil Nadu, is a construction hub with a wide range of residential and commercial opportunities. The city features a well-connected transportation network, ensuring easy travel. Chennai has excellent connectivity with major Tamil Nadu cities, thanks to the extensive network of National Highways like NH-44 and NH-48. This robust infrastructure links the city to Coimbatore, Madurai, Tiruchirappalli, Salem, and Tirunelveli. As Chennai continues to grow rapidly as a cosmopolitan city, construction activity is on the rise. This comprehensive blog highlights the top 10 construction companies in Chennai.In Chennai, when it comes to premium residential projects with convenient access to everyday necessities, these top 10 construction companies are renowned for their quality work. <span style={{color: 'orange'}}>Searching for the leading construction companies in Chennai known for their quality and innovative building projects? Here is your comprehensive guide: </span>
       </p>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://www.casagrand.co.in">1.Casagrand Builder Pvt. Ltd.</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.casagrand.co.in">1.Casagrand Builder Pvt. Ltd.</a></h1>
       <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
@@ -77,7 +86,14 @@ const HomeConstructionsTop10 = () => {
         <li>Address: New No.111, Old No.59, NPL Devi, LB Road, Thiruvanmiyur, Chennai 600041, Tamil Nadu, India</li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://www.larsentoubro.com/">2. L&T Infrastructure Ltd.</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.larsentoubro.com/">2. L&T Infrastructure Ltd.</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image2})` }}
+  >
+  </div>
+</div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       L&T Infrastructure Ltd., India's largest construction company, boasts a robust global presence spanning over 50 countries. Established in 1938 and headquartered in Mumbai, L&T operates as a multinational corporation specializing in EPC projects and high-tech manufacturing. The company undertakes a diverse array of projects, including ports, marine projects, coastal and model studies, bridges, roads, airports, railways, metros, and transport planning.
       </p>
@@ -93,7 +109,14 @@ const HomeConstructionsTop10 = () => {
         <li>Address: L&T Construction Campus, 2nd Floor, TC 1 Building, Mount Poonamallee Road, Manapakkam, Chennai</li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://infratechbuilders.in/">3. Infratech Builders</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://infratechbuilders.in/">3. Infratech Builders</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image3})` }}
+  >
+  </div>
+</div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       Infratech Builders, a prominent name in Chennai's construction industry, boasts over a decade of expertise. Specializing in turf building, renovation, construction, interior design, and painting, our experienced team has completed more than 70 projects, demonstrating our dedication to excellence. With over 10 years in construction and 5+ years in interior design, Infratech Builders is a trusted partner in creating dynamic and innovative spaces.
       </p>
@@ -110,8 +133,16 @@ const HomeConstructionsTop10 = () => {
         <li><a href="mailto:enquiries@infratechbuilders.in">Email: <span className='underline hover:text-primary'>enquiries@infratechbuilders.in</span></a></li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://www.arunexcello.com/">4.Arun Excello</a></h1>
-      <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.arunexcello.com/">4.Arun Excello</a></h1>
+      
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image4})` }}
+  >
+  </div>
+</div>
+<p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       Founded in 1987, Arun Excello initially focused on engineering contracts for the oil and chemical industries. The Arun Excello Group has completed over 100 residential projects and has launched Special Economic Zones (SEZs), completing numerous projects in various locations.
       </p>
       <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
@@ -123,7 +154,14 @@ const HomeConstructionsTop10 = () => {
         <li>Address: #18, Bhattad Towers, West Cott Road, Royapettah, Chennai, Tamil Nadu, India - 600014.</li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://www.akshaya.com/">5.Akshaya Pvt. Ltd</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.akshaya.com/">5.Akshaya Pvt. Ltd</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image5})` }}
+  >
+  </div>
+</div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       Akshaya Pvt. Ltd., founded in 1995, has successfully completed numerous projects since 2002. The company performs rigorous quality checks to ensure that their constructions meet client requirements. In Chennai, Akshaya Pvt. Ltd. thoroughly inspects each structure to ensure that every detail adheres to approved plans and specifications.      </p>
       <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
@@ -135,7 +173,14 @@ const HomeConstructionsTop10 = () => {
         <li>Address: Akshaya Pvt Ltd, 7th Floor, 117/1, LB Road, Adyar, Chennai - 600 020.</li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://www.indiabuilders.in/">6. India Builders Limited</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.indiabuilders.in/">6. India Builders Limited</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image6})` }}
+  >
+  </div>
+</div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       India Builders Limited is a renowned and highly respected enterprise in Chennai, specializing in real estate development and construction. As a leading builder in the city, they are known for delivering practical and visually stunning apartments, featuring grand exteriors crafted with cutting-edge technology and equipped with essential amenities.
       </p>
@@ -151,7 +196,14 @@ const HomeConstructionsTop10 = () => {
         <li>Address: AA-36, 3rd Main Road, 3rd Street, Anna Nagar, Chennai, Tamil Nadu 600040</li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://appaswamy.com/">7.Appaswamy Real Estates Limited</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://appaswamy.com/">7.Appaswamy Real Estates Limited</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image7})` }}
+  >
+  </div>
+</div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       Appaswamy Real Estates Limited stands out as one of the best construction companies in Chennai, epitomising class in the realty industry. With an ambitious vision to inspire value creation, quality, modernity, and excellence, it prioritises a lasting bond with customers built on trust, ethics, and professionalism. This realty conglomerate builds residential as well as commercial properties at prominent locations.
       </p>
@@ -164,7 +216,14 @@ const HomeConstructionsTop10 = () => {
         <li>Address: 3, Mangesh Street, T.Nagar,Chennai - 600 017</li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://www.kgbuilders.com/">8.KG Foundations Pvt. Ltd.</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.kgbuilders.com/">8.KG Foundations Pvt. Ltd.</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image8})` }}
+  >
+  </div>
+</div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       KG is a highly esteemed construction company in Chennai, known for its extensive portfolio and established reputation. Having completed over 180 projects, KG has successfully served more than 8,000 homeowners and corporate clients. Renowned for its meticulous attention to detail and luxury standards, KG is a prominent name in the real estate industry.
       </p>
@@ -181,7 +240,14 @@ const HomeConstructionsTop10 = () => {
         <li>Address: Marble Arch, Ground Floor No. 5 Bishop Wallers Avenue East Mylapore, Chennai 600 004 Tamil Nadu, India</li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://www.alliancein.com">9. Alliance Group</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.alliancein.com">9. Alliance Group</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image9})` }}
+  >
+  </div>
+</div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       Alliance Infrastructure Projects Pvt. Ltd. is a dynamic and driven construction company based in Chennai. Known for its adherence to international standards, professionalism, and credibility, Alliance has achieved notable success with projects across major cities in South India.
       </p>
@@ -195,7 +261,14 @@ const HomeConstructionsTop10 = () => {
         <li>Address: Plot No: A, No. 36/1, Gandhi Mandapam Road, Kotturpuram, Chennai - 600 085.</li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-xl mt-2" style={{color: 'orange'}}> <a href="https://www.shriramproperties.com">10. Shriram Properties</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.shriramproperties.com">10. Shriram Properties</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image10})` }}
+  >
+  </div>
+</div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       Shriram Properties is a prominent builder in Chennai, recognized for its dedication to transparency, trust, and providing enduring value. Their extensive range of projects meets diverse needs and preferences, ensuring that every homebuyer discovers a residence that matches their aspirations.
       </p>
@@ -213,7 +286,7 @@ const HomeConstructionsTop10 = () => {
       </ul>
 
 
-      <p className="text-justify ml-2 md:ml-4  max-w-[1400px] text-xl mt-2 font-bold" style={{color: 'orange'}}>Conclusion:</p>
+      <p className="text-justify ml-2 md:ml-4  max-w-[1400px] text-2xl mt-2 font-bold" style={{color: 'orange'}}>Conclusion:</p>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
 Choosing the right and highly qualified top 10 construction companies in Chennai can greatly benefit both you and your project. Partnering with a trustworthy and skilled builder or developer from this list ensures that your construction needs are handled efficiently and professionally, allowing you to remain worry-free throughout the process. It is important to provide a clear building plan outlining how you envision the final structure. Once the plan is submitted, it’s best to step back and allow the construction process to unfold. Ensure that the construction is executed flawlessly, as it’s more than just stone and brick—it represents your vision and investment. The building should not only meet your expectations in terms of quality but also add a touch of luxury and comfort to its surroundings. Ultimately, the goal is to safeguard your lifestyle and ensure that your plan is executed without unnecessary risk. Entrusting the construction company with your project will save you both time and money while achieving the desired results.
       </p>
