@@ -25,7 +25,7 @@ const BannerImg = {
 export const table = [
   {
     question: "TABLE OF CONTENTS",
-    answers: ["Casagrand Builder Pvt. Ltd.", "L&T Infrastructure Ltd.", "Infratech Builders", "Arun Excello", "Akshaya Pvt. Ltd", "India Builders Limited", "Appaswamy Real Estates Limited", "KG Foundations Pvt. Ltd.", "Alliance Group", "Shriram Properties"],
+    answers: ["Casagrand Builder Pvt. Ltd.", "L&T Infrastructure Ltd.", "Infratech Builders", "Arun Excello", "Akshaya Pvt. Ltd", "India Builders Limited", "Appaswamy Real Estates", "KG Foundations Pvt. Ltd.", "Alliance Group", "Shriram Properties"],
   },
 ];
 
@@ -344,7 +344,7 @@ const SingleQuestion = ({ question, answer }) => {
 
 
 const SingleQuestion2 = ({ question, answers }) => {
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [showAnswer, setShowAnswer] = useState(true); // Default state is true to keep answers always opened
 
   return (
     <div className="border border-black rounded-lg bg-primary md:width-320px width-500px">
@@ -377,7 +377,5 @@ const SingleQuestion2 = ({ question, answers }) => {
     </div>
   );
 };
-
-
 
 export default HomeConstructionsTop10;
