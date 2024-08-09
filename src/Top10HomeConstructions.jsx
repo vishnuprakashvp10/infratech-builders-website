@@ -22,6 +22,13 @@ const BannerImg = {
   width: "100%",
 };
 
+export const table = [
+  {
+    question: "TABLE OF CONTENTS",
+    answers: ["Casagrand Builder Pvt. Ltd.", "L&T Infrastructure Ltd.", "Infratech Builders", "Arun Excello", "Akshaya Pvt. Ltd", "India Builders Limited", "Appaswamy Real Estates Limited", "KG Foundations Pvt. Ltd.", "Alliance Group", "Shriram Properties"],
+  },
+];
+
 export const questions = [
   {
     question: "How can I evaluate the credibility of these builders before making a decision?",
@@ -64,7 +71,11 @@ const HomeConstructionsTop10 = () => {
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
       If you are seeking the top construction companies in Chennai to build your home, explore this list. Chennai, Tamil Nadu, is a construction hub with a wide range of residential and commercial opportunities. The city features a well-connected transportation network, ensuring easy travel. Chennai has excellent connectivity with major Tamil Nadu cities, thanks to the extensive network of National Highways like NH-44 and NH-48. This robust infrastructure links the city to Coimbatore, Madurai, Tiruchirappalli, Salem, and Tirunelveli. As Chennai continues to grow rapidly as a cosmopolitan city, construction activity is on the rise. This comprehensive blog highlights the top 10 construction companies in Chennai.In Chennai, when it comes to premium residential projects with convenient access to everyday necessities, these top 10 construction companies are renowned for their quality work. <span style={{color: 'orange'}}>Searching for the leading construction companies in Chennai known for their quality and innovative building projects? Here is your comprehensive guide: </span>
       </p>
-
+<section className="mb-8 py-6 px-4 grid grid-cols-1 gap-8">
+  {table.map((item, index) => (
+    <SingleQuestion2 {...item} key={index} />
+  ))}
+</section>
       <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.casagrand.co.in">1.Casagrand Builder Pvt. Ltd.</a></h1>
       <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
@@ -309,7 +320,7 @@ const SingleQuestion = ({ question, answer }) => {
   const [showAnswer, setShowAnswer] = useState(false);
 
   return (
-    <div className="border border-gray-400 rounded-lg bg-white">
+    <div className=" rounded-lg bg-white">
       <article className="flex items-center justify-between p-4 lg:p-6">
         <h2
           className="cursor-pointer"
@@ -330,5 +341,43 @@ const SingleQuestion = ({ question, answer }) => {
     </div>
   );
 }
+
+
+const SingleQuestion2 = ({ question, answers }) => {
+  const [showAnswer, setShowAnswer] = useState(false);
+
+  return (
+    <div className="border border-black rounded-lg bg-primary md:width-320px width-500px">
+      <article className="flex items-center justify-between p-4 lg:p-6">
+        <h2
+          className="cursor-pointer text-center font-bold text-white"
+          onClick={() => setShowAnswer(!showAnswer)}
+        >
+          {question}
+        </h2>
+        <button onClick={() => setShowAnswer(!showAnswer)}>
+          {showAnswer ? <BiMinus className="text-white" /> : <BsPlusLg className="text-white" />}
+        </button>
+      </article>
+
+      {showAnswer && (
+        <article className="border-t border-black p-4 lg:p-6 font-bold text-white">
+          <ul>
+            {answers.map((answer, index) => (
+              <li
+                key={index}
+                style={{ listStyleType: 'disc', listStylePosition: 'inside' }}
+              >
+                {answer}
+              </li>
+            ))}
+          </ul>
+        </article>
+      )}
+    </div>
+  );
+};
+
+
 
 export default HomeConstructionsTop10;
