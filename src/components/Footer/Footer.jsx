@@ -214,6 +214,15 @@ const Footer = () => {
           {showThankYouPopup && <ThankYouPopup setShowThankYouPopup={setShowThankYouPopup} />}
         </div>
       </div>
+      <div className="text-center py-6 ">
+      <p className="text-bold text-lg text-black underline transition-all duration-300">
+        <a href="https://www.mitochondigital.com/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Designed and Developed by  
+        Mitochon Digital</a> 
+      </p>
+    </div>
     </div>
   );
 };
