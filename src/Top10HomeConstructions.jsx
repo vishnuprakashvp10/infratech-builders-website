@@ -320,10 +320,10 @@ const SingleQuestion = ({ question, answer }) => {
   const [showAnswer, setShowAnswer] = useState(false);
 
   return (
-    <div className=" rounded-lg bg-white">
+    <div className="border border-black rounded-lg bg-white">
       <article className="flex items-center justify-between p-4 lg:p-6">
         <h2
-          className="cursor-pointer"
+          className="cursor-pointer border-gray-400"
           onClick={() => setShowAnswer(!showAnswer)}
         >
           {question}
