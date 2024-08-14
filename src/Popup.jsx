@@ -36,8 +36,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup, timeoutReq, type }) => {
       location.pathname === "/contact-us" ||
       location.pathname === "/privacy-policy" ||
       location.pathname === "/faq" ||
-      location.pathname === "/blog-post" ||
-      location.pathname === "/blog-post/top-10-construction-companies-in-chennai"
+      location.pathname === "/blog-post"
     ) return;
     const popupFunction = () => {
       if (document.getElementById("contact-form")) return;

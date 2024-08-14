@@ -48,7 +48,7 @@ const Blogpost = ({ handleOrderPopup }) => {
         navigate('/blog-post/top-10-construction-companies-in-chennai');
         break;
       case 2:
-        navigate('/faq');
+        navigate('/blog-post/top-10-interior-designing-companies-in-chennai');
         break;
       case 3:
         navigate('/privacy-policy');

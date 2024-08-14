@@ -25,7 +25,7 @@ const BannerImg = {
 export const table = [
   {
     question: "TABLE OF CONTENTS",
-    answers: ["Casagrand Builder Pvt. Ltd.", "L&T Infrastructure Ltd.", "Infratech Builders", "Arun Excello", "Akshaya Pvt. Ltd", "India Builders Limited", "Appaswamy Real Estates", "KG Foundations Pvt. Ltd.", "Alliance Group", "Shriram Properties"],
+    answers: ["DesignQube", "Infratech Builders", "Aamphaa Projects", "Deejos Interiors", "Vismaya Interiors", "The Studio", "Zenith Interior", "V5 Design Studio", "D’LIFE Home Interiors", "K2India"],
   },
 ];
 
@@ -66,17 +66,17 @@ const HomeConstructionsTop10 = () => {
       </div>
       <div className="ml-4">
       <h1 className="text-center font-bold py-7 mr-2 max-w-[1400px] md:py-5 text-2xl md:text-3xl" style={{color: 'orange'}}>
-        Check Out The Top 10 Construction Companies In Chennai
+      Check Out The Top 10 Interior Designing Companies In Chennai
       </h1>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      If you are seeking the top construction companies in Chennai to build your home, explore this list. Chennai, Tamil Nadu, is a construction hub with a wide range of residential and commercial opportunities. The city features a well-connected transportation network, ensuring easy travel. Chennai has excellent connectivity with major Tamil Nadu cities, thanks to the extensive network of National Highways like NH-44 and NH-48. This robust infrastructure links the city to Coimbatore, Madurai, Tiruchirappalli, Salem, and Tirunelveli. As Chennai continues to grow rapidly as a cosmopolitan city, construction activity is on the rise. This comprehensive blog highlights the top 10 construction companies in Chennai.In Chennai, when it comes to premium residential projects with convenient access to everyday necessities, these top 10 construction companies are renowned for their quality work. <span style={{color: 'orange'}}>Searching for the leading construction companies in Chennai known for their quality and innovative building projects? Here is your comprehensive guide: </span>
+      Chennai, a vibrant and dynamic city in India, is renowned for its rich cultural heritage and architectural beauty. As the city continues to grow and modernize, the demand for innovative and creative interior design solutions has surged. From luxurious residential spaces to functional commercial environments, the top interior design companies in Chennai are redefining the way we live and work. These firms are at the forefront of the industry, offering a blend of traditional elegance and contemporary style, tailored to meet the unique needs of their clients. This guide highlights the leading interior designers in Chennai, showcasing their expertise, creativity, and dedication to transforming spaces into stunning works of art. Whether you are looking to revamp your home or enhance your workspace, these companies provide comprehensive design services that cater to every aesthetic and functional requirement. Explore the profiles of the top 10 interior design companies in Chennai and discover how they can bring your vision to life.
       </p>
 <section className="mb-8 py-6 px-4 grid grid-cols-1 gap-8">
   {table.map((item, index) => (
     <SingleQuestion2 {...item} key={index} />
   ))}
 </section>
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.casagrand.co.in">1.Casagrand Builder Pvt. Ltd.</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.designqube.in">1.DesignQube</a></h1>
       <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
@@ -85,42 +85,17 @@ const HomeConstructionsTop10 = () => {
   </div>
 </div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Casagrand Builder is a top real estate company in Chennai, renowned for its quality and value. Over the past 15 years, it has developed 22 million square feet of premium homes across Chennai, Kochi, Bengaluru, Kodaikanal, Hyderabad, and Coimbatore, serving over 18,250 households. Now in its 16th year, Casagrand has projects worth more than INR 8000 crores in the pipeline, signaling ongoing growth.
+      DesignQube is a prominent interior design company in Chennai, specializing in sustainable and innovative architectural and interior design solutions. Known for their cutting-edge designs in residential, commercial, and hospitality projects, DesignQube focuses on creating functional and aesthetically pleasing environments that enhance the living experience. Their commitment to quality and customer satisfaction makes them a top choice for interior design services in Chennai.
       </p>
       <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-        <li><span className='font-bold'>Founder:</span> Arun MN</li>
-        <li><span className='font-bold'>Year of Establishment:</span> 2003</li>
-        <li><span className='font-bold'>Headquarters:</span> Chennai, Tamil Nadu</li>
-        <li><span className='font-bold'>Subsidiaries:</span>  Casagrand Upstay, Casagrand Industrial & Warehousing, and more.</li>
-        <li><span className='font-bold'>Website:</span>  <span className='underline'><a href="https://www.casagrand.co.in">https://www.casagrand.co.in</a></span></li>
-        <li><span className='font-bold'>Contact Number:</span>  +91 99629 44444</li>
-        <li><span className='font-bold'>Address:</span>  New No.111, Old No.59, NPL Devi, LB Road, Thiruvanmiyur, Chennai 600041, Tamil Nadu, India</li>
+        <li><span className='font-bold'>Founder:</span> Arun T</li>
+        <li><span className='font-bold'>Year of Establishment:</span> 2010</li>
+        <li><span className='font-bold'>Email:</span> chennai@designqube.in</li>
+        <li><span className='font-bold'>Website:</span>  <span className='underline'><a href="https://www.designqube.in">https://www.designqube.in</a></span></li>
+        <li><span className='font-bold'>Contact Number:</span>  +91 95000 00964</li>
+        <li><span className='font-bold'>Address:</span> 8/12, Vaidyaraman Street, T Nagar, Chennai - 600017</li>
       </ul>
-
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.larsentoubro.com/">2. L&T Infrastructure Ltd.</a></h1>
-      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
-  <div
-    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image2})` }}
-  >
-  </div>
-</div>
-      <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      L&T Infrastructure Ltd., India's largest construction company, boasts a robust global presence spanning over 50 countries. Established in 1938 and headquartered in Mumbai, L&T operates as a multinational corporation specializing in EPC projects and high-tech manufacturing. The company undertakes a diverse array of projects, including ports, marine projects, coastal and model studies, bridges, roads, airports, railways, metros, and transport planning.
-      </p>
-      <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      L&T's business encompasses several key sectors, such as buildings and factories, transport infrastructure, heavy civil infrastructure, smart world and communication, water and renewable energy, and power transmission and distribution. Adhering to rigorous industry standards, L&T ensures the structural integrity and safety of its constructions. With decades of experience, the company consistently delivers dependable, reliable, and aesthetically pleasing results, making it a cornerstone of the construction industry in India and securing its place among the top 10 construction companies in Chennai.
-      </p>
-      <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-        <li><span className='font-bold'>Founder:</span>  Søren Kristian Toubro, Henning Holck-Larsen</li>
-        <li><span className='font-bold'>Year of Establishment:</span>  1946</li>
-        <li><span className='font-bold'>Headquarters:</span>  Chennai, Tamil Nadu</li>
-        <li><span className='font-bold'>Website:</span>  <span className=' underline'><a href="https://www.larsentoubro.com/">https://www.larsentoubro.com/</a></span></li>
-        <li><span className='font-bold'>Contact Number:</span>  044-4070 6900</li>
-        <li><span className='font-bold'>Address:</span>  L&T Construction Campus, 2nd Floor, TC 1 Building, Mount Poonamallee Road, Manapakkam, Chennai</li>
-      </ul>
-
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://infratechbuilders.in/">3. Infratech Builders</a></h1>
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://infratechbuilders.in/">2. Infratech Builders</a></h1>
       <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
@@ -129,10 +104,7 @@ const HomeConstructionsTop10 = () => {
   </div>
 </div>
       <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Infratech Builders, a prominent name in Chennai's construction industry, boasts over a decade of expertise. Specializing in turf building, renovation, construction, interior design, and painting, our experienced team has completed more than 70 projects, demonstrating our dedication to excellence. With over 10 years in construction and 5+ years in interior design, Infratech Builders is a trusted partner in creating dynamic and innovative spaces.
-      </p>
-      <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Infratech Builders offers a comprehensive range of landscaping services. From crafting lush landscapes with turf building to executing transformative renovations, constructing durable structures, and enhancing aesthetics with interior design, our decade-long legacy of quality and precision ensures each project reflects our commitment to perfection. Whether it’s meticulous interior design or robust construction, Infratech Builders leverages its extensive industry experience to exceed expectations, making us the preferred choice in Chennai's construction landscape.
+      Infratech Builders is a leading name in the interior design industry in Chennai, offering comprehensive home interior solutions through an innovative online platform. They provide end-to-end services, from design consultation to installation, ensuring a hassle-free experience for homeowners. Their team of experienced designers collaborates with trusted suppliers to deliver personalized and stylish interiors, making Livspace a preferred choice for home renovations and interior design in Chennai.
       </p>
       <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
         <li><span className='font-bold'>Founder:</span>  Suresh, Laxmanan</li>
@@ -144,7 +116,30 @@ const HomeConstructionsTop10 = () => {
         <li><a href="mailto:enquiries@infratechbuilders.in"><span className='font-bold'>Email:</span>  <span className='underline hover:text-primary'>enquiries@infratechbuilders.in</span></a></li>
       </ul>
 
-      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.arunexcello.com/">4.Arun Excello</a></h1>
+
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="http://www.aamphaa.com">3. Aamphaa Projects</a></h1>
+      <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
+  <div
+    className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
+    style={{ backgroundImage: `url(${Image2})` }}
+  >
+  </div>
+</div>
+      <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
+      L&T Infrastructure Ltd., India's largest construction company, boasts a robust global presence spanning over 50 countries. Established in 1938 and headquartered in Mumbai, L&T operates as a multinational corporation specializing in EPC projects and high-tech manufacturing. The company undertakes a diverse array of projects, including ports, marine projects, coastal and model studies, bridges, roads, airports, railways, metros, and transport planning.
+      </p>
+      <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
+        <li><span className='font-bold'>Founder:</span>  Karthikeyan K</li>
+        <li><span className='font-bold'>Year of Establishment:</span>  2010</li>
+        <li><span className='font-bold'>Email:</span> info@aamphaa.com</li>
+        <li><span className='font-bold'>Website:</span>  <span className=' underline'><a href="http://www.aamphaa.com">http://www.aamphaa.com</a></span></li>
+        <li><span className='font-bold'>Contact Number:</span>  +91 99410 15050</li>
+        <li><span className='font-bold'>Address:</span> No 2/1, 5th Floor, Rathna Building, Triplicane High Road, Triplicane, Chennai - 600005</li>
+      </ul>
+
+ 
+
+      <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.deejos.com">4.Deejos Interiors</a></h1>
       
       <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
@@ -154,15 +149,15 @@ const HomeConstructionsTop10 = () => {
   </div>
 </div>
 <p className='text-justify ml-2 md:ml-4 mr-4 max-w-[1400px]'>
-      Founded in 1987, Arun Excello initially focused on engineering contracts for the oil and chemical industries. The Arun Excello Group has completed over 100 residential projects and has launched Special Economic Zones (SEZs), completing numerous projects in various locations.
+Deejos Interiors is a leading interior design company in Chennai known for its modern and contemporary design approach. They offer a wide range of interior design services for residential and commercial spaces, focusing on functionality, aesthetics, and client satisfaction. Their commitment to delivering high-quality and timely solutions has made them a trusted name in the Chennai interior design industry.
       </p>
       <ul className='list-disc ml-6 md:ml-8 mr-4 max-w-[1400px]'>
-        <li><span className='font-bold'>Founder:</span>  Arunachalam Sundar</li>
-        <li><span className='font-bold'>ear of Establishment:</span>  2007</li>
-        <li><span className='font-bold'>Headquarters:</span>  Chennai, Tamil Nadu</li>
-        <li> <span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.arunexcello.com/">https://www.arunexcello.com/</a></span></li>
-        <li><span className='font-bold'>Contact Number:</span>  +91 44 2841 2841</li>
-        <li><span className='font-bold'>Address:</span>  #18, Bhattad Towers, West Cott Road, Royapettah, Chennai, Tamil Nadu, India - 600014.</li>
+        <li><span className='font-bold'>Founder:</span>  Vijay Raj</li>
+        <li><span className='font-bold'>Year of Establishment:</span>  2008</li>
+        <li><span className='font-bold'>Email:</span>  info@deejos.com</li>
+        <li> <span className='font-bold'>Website:</span> <span className='underline'><a href="https://www.deejos.com">https://www.deejos.com</a></span></li>
+        <li><span className='font-bold'>Contact Number:</span>  +91 81100 71155</li>
+        <li><span className='font-bold'>Address:</span>  New No: 63, 6th Avenue, Ashok Nagar, Chennai - 600083</li>
       </ul>
 
       <h1 className="font-bold hover:underline ml-2 md:ml-4 text-2xl mt-2" style={{color: 'orange'}}> <a href="https://www.akshaya.com/">5.Akshaya Pvt. Ltd</a></h1>
