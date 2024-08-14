@@ -51,10 +51,10 @@ const Blogpost = ({ handleOrderPopup }) => {
         navigate('/blog-post/top-10-interior-designing-companies-in-chennai');
         break;
       case 3:
-        navigate('/privacy-policy');
+        navigate('/blog-post/top-10-turf-construction-companies-in-chennai');
         break;
       case 4:
-        navigate('/multi-turf-construction');
+        navigate('/blog-post/top-10-home-renovation-companies-in-chennai');
         break;
       case 5:
         navigate('/painting-services');
