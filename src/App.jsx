@@ -26,6 +26,7 @@ import Top10HomeConstructions from './Top10HomeConstructions.jsx';
 import Top10interiors from './Top10interiors.jsx';
 import Top10turf from './Top10turf.jsx';
 import Top10reno from './Top10reno.jsx';
+import Top10paint from './Top10paint.jsx';
 import Aboutus from './Aboutus';
 import Contactus from './Contactus';
 import ScrollToTop from './ScrollToTop';
@@ -74,6 +75,7 @@ const App = () => {
               <Route path="/blog-post/top-10-turf-construction-companies-in-chennai" element={<Top10turf />} />
               <Route path="/blog-post/top-10-construction-companies-in-chennai" element={<Top10HomeConstructions />} />
               <Route path="/blog-post/top-10-home-renovation-companies-in-chennai" element={<Top10reno />} />
+              <Route path="/blog-post/top-10-painting-services-companies-in-chennai" element={<Top10paint />} />
               <Route path="/about-us" element={<Aboutus />} />
               <Route path="/contact-us" element={<Contactus />} />
               <Route path='*' element={<NotFound />} />
