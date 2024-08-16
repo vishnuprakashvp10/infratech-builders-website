@@ -45,26 +45,27 @@ export const table = [
 
   export const questions = [
     {
-      question: "How can I evaluate the credibility of these turf construction companies before making a decision?",
-      answer: "To assess credibility, review their portfolio of completed projects, read customer reviews, check their certifications, and ask for references. Visiting previous installations and inspecting the quality of their turf systems can also provide valuable insights."
+      question: "What should I consider when planning a home renovation project?",
+      answer: "Start by defining your goals, budget, and timeline. Consider the scope of the project, including any structural changes, design preferences, and material choices. It's also important to consult with a professional to understand the feasibility and potential challenges."
     },
     {
-      question: "Do these turf construction companies handle both residential and commercial projects?",
-      answer: "Yes, many turf construction companies specialize in both residential and commercial projects. Their portfolios often include a range of installations such as sports fields, playgrounds, lawns, and commercial landscaping. Reviewing their past work can help determine if they meet your specific needs."
+      question: "How can I choose the right home renovation contractor?",
+      answer: "Evaluate contractors based on their experience, portfolio, customer reviews, and credentials. It's crucial to get detailed quotes, ask for references, and ensure they are licensed and insured. Communication and transparency are key factors in making the right choice."
     },
     {
-      question: "How do these turf construction companies incorporate sustainable and eco-friendly practices in their projects?",
-      answer: "Several companies focus on sustainability by using eco-friendly materials, installing water-efficient irrigation systems, and employing energy-efficient practices. For detailed information on their sustainability initiatives, inquire about their approach during your consultation."
+      question: "How do I manage my budget during a home renovation?",
+      answer: "Set a realistic budget that includes a contingency fund for unexpected expenses. Prioritize essential renovations and be clear about your financial limits with your contractor. Regularly review costs and make adjustments as needed to stay within budget."
     },
     {
-      question: "Are customization options available for synthetic turf installations?",
-      answer: "Yes, most turf construction companies offer customization options such as different turf types, infill materials, and drainage systems to meet specific requirements. Discuss your needs with the company to ensure they can tailor the installation to your preferences."
+      question: "What are the common mistakes to avoid in home renovations?",
+      answer: "Common mistakes include underestimating the budget, not planning for enough time, and choosing materials or designs that don’t match your lifestyle. It's also important to avoid DIY work that requires professional skills and not obtaining the necessary permits."
     },
     {
-      question: "What should I consider when choosing between different types of turf for my project?",
-      answer: "Consider the intended use of the space, maintenance requirements, durability, and appearance. Different types of turf are designed for specific applications, such as sports fields, playgrounds, or residential lawns. It's important to select a turf that meets both your aesthetic and functional needs."
+      question: "How can I ensure a home renovation adds value to my property?",
+      answer: "Focus on renovations that enhance functionality, energy efficiency, and curb appeal. Kitchen and bathroom upgrades, adding living space, and improving the overall flow of the home are generally high-value projects. Consulting a real estate expert can also provide insights into what buyers in your area are looking for."
     },
-  ];  
+  ];
+  
 
 const HomeConstructionsTop10 = () => {
   const [cards] = useState(questions);
