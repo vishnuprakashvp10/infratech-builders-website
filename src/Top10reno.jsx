@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import { BiMinus } from "react-icons/bi";
 import { BsPlusLg } from "react-icons/bs";
-import Banner from "./assets/Hero/top-cons-blog-img.jpg";
-import Image1 from "./assets/Hero/casagrand.jpg";
-import Image2 from "./assets/Hero/landt.jpg";
-import Image3 from "./assets/Hero/homeonefin.jpg";
-import Image4 from "./assets/Hero/arunexcello.jpg";
-import Image5 from "./assets/Hero/akshaya.jpg";
-import Image6 from "./assets/Hero/indiabuilders.jpg";
-import Image7 from "./assets/Hero/appaswamy.jpg";
-import Image8 from "./assets/Hero/kgbuilders.jpg";
-import Image9 from "./assets/Hero/alliance.jpg";
-import Image10 from "./assets/Hero/shriram.jpeg";
+import Banner from "./assets/Hero/blog-renov.png";
+import Image1 from "./assets/Hero/desq.jpeg";
+import Image2 from "./assets/Hero/rennow.webp";
+import Image3 from "./assets/Hero/blog-ren-3.webp";
+import Image4 from "./assets/Hero/blog-ren-4.jpg";
+import Image5 from "./assets/Hero/living.jpg";
+import Image6 from "./assets/Hero/blog-ren-6.avif";
+import Image7 from "./assets/Hero/blog-ren-7.webp";
+import Image8 from "./assets/Hero/blog-ren-8.jpg";
+import Image9 from "./assets/Hero/blog-ren-9.png";
+import Image10 from "./assets/Hero/blog-ren-10.jpg";
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
@@ -182,7 +182,7 @@ const HomeConstructionsTop10 = () => {
       <div className='md:max-w-[780px] md:h-[480px] max-w-[1300px] h-[265px] w-full m-auto py-6 px-4 relative group'>
   <div
     className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'
-    style={{ backgroundImage: `url(${Image3})` }}
+    style={{ backgroundImage: `url(${Image5})` }}
   >
   </div>
 </div>

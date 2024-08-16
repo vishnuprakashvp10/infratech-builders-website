@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import { BiMinus } from "react-icons/bi";
 import { BsPlusLg } from "react-icons/bs";
-import Banner from "./assets/Hero/top-cons-blog-img.jpg";
-import Image1 from "./assets/Hero/casagrand.jpg";
-import Image2 from "./assets/Hero/landt.jpg";
-import Image3 from "./assets/Hero/homeonefin.jpg";
-import Image4 from "./assets/Hero/arunexcello.jpg";
-import Image5 from "./assets/Hero/akshaya.jpg";
-import Image6 from "./assets/Hero/indiabuilders.jpg";
-import Image7 from "./assets/Hero/appaswamy.jpg";
-import Image8 from "./assets/Hero/kgbuilders.jpg";
-import Image9 from "./assets/Hero/alliance.jpg";
-import Image10 from "./assets/Hero/shriram.jpeg";
+import Banner from "./assets/Hero/blog-painting.jpg";
+import Image1 from "./assets/Hero/cdrive.jpg";
+import Image2 from "./assets/Hero/paintwall.webp";
+import Image3 from "./assets/Hero/paintingext.jpg";
+import Image4 from "./assets/Hero/myhpaint.webp";
+import Image5 from "./assets/Hero/vijay.jpg";
+import Image6 from "./assets/Hero/justp.jpg";
+import Image7 from "./assets/Hero/smartp.jpg";
+import Image8 from "./assets/Hero/coatp.jpeg";
+import Image9 from "./assets/Hero/asian.jpg";
+import Image10 from "./assets/Hero/zzpaint.jpg";
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
