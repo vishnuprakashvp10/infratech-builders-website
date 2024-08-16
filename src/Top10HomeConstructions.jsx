@@ -12,6 +12,7 @@ import Image7 from "./assets/Hero/appaswamy.jpg";
 import Image8 from "./assets/Hero/kgbuilders.jpg";
 import Image9 from "./assets/Hero/alliance.jpg";
 import Image10 from "./assets/Hero/shriram.jpeg";
+import { Helmet } from 'react-helmet-async'
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
@@ -57,6 +58,10 @@ const HomeConstructionsTop10 = () => {
 
   return (
     <div>
+     <Helmet>
+        <title>Top 10 Construction Companies in Chennai &#124; Infratech Builders</title>
+        <meta name='description' content='Discover the leading construction companies in Chennai with expertise in delivering top-quality building services for your projects.' />
+    </Helmet>
     <div className='text-xl' >
       <div className="mb-2 bg-gray-100  text-black" style={BannerImg}>
         <div className="container py-28 ">

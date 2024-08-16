@@ -11,8 +11,8 @@ import Banner3 from './assets/Hero/tennisturf.jpg';
 import Banner4 from './assets/Hero/badmin.jpg';
 import Banner5 from './assets/Hero/volly.jpg';
 import Callusbanner from './components/Callusbanner/Callusbanner';
-import WhatsAppButton from './whatsappbutton';
-import { Helmet } from 'react-helmet-async'
+import WhatsAppButton from './whatsappbutton'; 
+import { Helmet } from 'react-helmet-async';
 import { isMobile } from 'react-device-detect';
 
 

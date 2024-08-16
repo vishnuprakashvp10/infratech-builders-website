@@ -5,6 +5,8 @@ import Img2 from './assets/Hero/blog-turf.jpg';
 import Img3 from './assets/Hero/blog-renoo.jpg';
 import Img4 from './assets/Hero/blog-interior.jpg';
 import Img5 from './assets/Hero/blog-paint.jpeg';
+import { Helmet } from 'react-helmet-async'
+
  
 const BlogData = [
   {
@@ -64,6 +66,10 @@ const Blogpost = ({ handleOrderPopup }) => {
 
   return (
     <div className="ml-4">
+      <Helmet>
+        <title>Blog &#124; Infratech Builders</title>
+        <meta name='description' content='Read Infratech Builders&#39; blogs to learn more about construction, interior, renovation and painting companies in Chennai.' />
+      </Helmet>
       <h1 className="text-center font-bold py-7 mr-2 max-w-[1400px] md:py-5 text-2xl  md:text-5xl" style={{ color: 'orange' }}>
         BLOG POSTS
       </h1>

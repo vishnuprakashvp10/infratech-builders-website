@@ -12,6 +12,7 @@ import Image7 from "./assets/Hero/proturf.jpeg";
 import Image8 from "./assets/Hero/synturf.webp";
 import Image9 from "./assets/Hero/urban.jpg";
 import Image10 from "./assets/Hero/field.jpeg";
+import { Helmet } from 'react-helmet-async'
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
@@ -64,11 +65,15 @@ export const table = [
     },
   ];  
 
-const HomeConstructionsTop10 = () => {
+const HomeConstructionsTop10 = () => { 
   const [cards] = useState(questions);
 
   return (
     <div>
+    <Helmet>
+        <title>Top 10 Turf Constructors in Chennai &#124; Infratech Builders</title>
+        <meta name='description' content='Explore the leading turf construction companies in Chennai offering expert solutions for high-quality sports turf and outdoor surfaces.' />
+    </Helmet>
     <div className='text-xl' >
       <div className="mb-2 bg-gray-100  text-black" style={BannerImg}>
         <div className="container py-28 ">

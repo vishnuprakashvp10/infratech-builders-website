@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BiMinus } from "react-icons/bi";
 import { BsPlusLg } from "react-icons/bs";
+import { Helmet } from 'react-helmet-async'
 
 export const questions = [
   {
@@ -151,6 +152,10 @@ export default function Faq() {
 
   return (
     <>
+        <Helmet>
+        <title>FAQ &#124; Infratech Builders</title>
+        <meta name='description' content='Infratech Builders answers your common questions to help you understand our services and processes better.' />
+      </Helmet>
       <section className="max-w-xl mx-auto py-20 px-4">
         <h1 className="text-center uppercase tracking-widest font-bold mb-8 text-2xl" style={{ color: 'orange' }}>
           FAQs
