@@ -25,10 +25,15 @@ const routes = [
   '/privacy-policy',
   '/faq',
   '/blog-post',
+  '/blog-post/top-10-construction-companies-in-chennai',
+  '/blog-post/top-10-interior-designing-companies-in-chennai',
+  '/blog-post/top-10-turf-construction-companies-in-chennai',
+  '/blog-post/top-10-home-renovation-companies-in-chennai',
+  '/blog-post/top-10-painting-services-companies-in-chennai',
 ];
 
 const generateSitemap = async () => {
-  const stream = new SitemapStream({ hostname: 'https://infratechbuilders.in/' }); // Change 'https://example.com' to your domain
+  const stream = new SitemapStream({ hostname: 'https://infratechbuilders.in/' }); 
 
   routes.forEach((route) => {
     stream.write({ url: route, changefreq: 'weekly', lastmod: new Date().toISOString() });
@@ -37,7 +42,7 @@ const generateSitemap = async () => {
   stream.end();
 
   const sitemap = await streamToPromise(stream);
-  const filePath = './sitemap.xml'; // Path to save the sitemap file
+  const filePath = './sitemap.xml'; 
   const writeStream = createWriteStream(filePath);
 
   writeStream.write(sitemap.toString());
